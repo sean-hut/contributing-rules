@@ -16,4 +16,6 @@ cryptography][elliptic-curve]:
 [gpg]: <https://gnupg.org/software/index.html>
 [gpg-faq]: <https://web.archive.org/web/20201013025348/https://www.gnupg.org/faq/gnupg-faq.html>
 
-Instruction on how to create a `gpg2` Elliptic-Curve Signing Key.
+[How to create a `gpg2` Elliptic-Curve Signing Key][create-key].
+
+[create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
