@@ -2,7 +2,9 @@
 
 All contributors must sign the Contributor Agreement with a `gpg2` elliptic-curve signing key.
 
-Instruction on how to create a `gpg2` elliptic-curve signing key.m
+[How to create a `gpg2` elliptic-curve signing key][create-key].
+
+[create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
 
 The Contributor Agreement file is
 `contributing/contributor-agreement.txt`.
