@@ -12,9 +12,11 @@ specific rules.  The project specific rules should be located in a
 To help with reuse the rules are in separate readme files.
 
 This project provides an example of referencing rule modules
-below in the contributing section.
+in the [contributing section][contrib-section].
 
 Here are the different rule modules in different categories:
+
+[contrib-section]: <https://github.com/sean-hut/contributing-rules#contributing>
 
 ## Contributing Prerequisites
 
