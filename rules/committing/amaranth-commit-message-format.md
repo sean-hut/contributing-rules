@@ -33,8 +33,8 @@ Separate the body and body footer with a blank line.
 The body can have an optional footer.  The body footer comes after the body.
 
 The body footer refers to issue IDs for example:
-- Resolves: <issue-id>
-- See also: <issue-id>, <issue-id>
+- Resolves: `<issue-id>`
+- See also: `<issue-id>`, `<issue-id>`
 
 ## Category Abbreviation
 
