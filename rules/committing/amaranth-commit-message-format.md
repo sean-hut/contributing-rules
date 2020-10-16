@@ -48,6 +48,15 @@ Changes that effect the build tools.  For example:
 Changes to configurations.  For example:
 - .gitignore
 
+### CT (Contributing)
+
+Use this when the commit is for managing contributing requirements  For example:
+
+- Adding a gpg2 elliptic-curve signing key and fingerprint.
+- Signing a contributor agreement.
+- Setting up contributing directories.
+- Revoking a signing key and resigning with a new key.
+
 ### D (Documentation)
 
 Changes to documentation.  For example:
