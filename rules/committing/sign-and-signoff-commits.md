@@ -3,7 +3,9 @@
 This project requires all commit are signed with a `gpg2`
 elliptic-curve signature.
 
-Instruction on how to create a `gpg2` elliptic-curve signing key.
+[How to create a `gpg2` elliptic-curve signing key][create-key].
+
+[create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
 
 It also requires that commits have a sign off.
 
