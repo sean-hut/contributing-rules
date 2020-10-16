@@ -97,6 +97,10 @@ Fixing an error in the source code.
 
 Changes that do not effect the API and do not add or remove features.
 
+### RV (Revert)
+
+Reverting a commit.
+
 ### T (Test)
 
 Adding or changing tests.
