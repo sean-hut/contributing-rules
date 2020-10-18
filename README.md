@@ -83,6 +83,12 @@ Links for more information on the license:
 [spdx]: <https://web.archive.org/web/20200909121345/https://spdx.org/licenses/0BSD.html>
 [osi]: <https://web.archive.org/web/20200923194052/https://opensource.org/licenses/0BSD>
 
+## Semantic Versioning
+
+The [SemVar][semvar] version of semantic versioning is used.
+
+[semvar]: <https://web.archive.org/web/20201009135328/https://semver.org/>
+
 # Contributing
 
 Contributions are welcome and appreciated.
