@@ -11,12 +11,19 @@ specific rules.  The project specific rules should be located in a
 
 To help with reuse the rules are in separate readme files.
 
-This project provides an example of referencing rule modules
-in the [contributing section][contrib-section].
+Here are some examples of projects referencing rule modules in their
+contributing section:
+
+- [this project][this-projet]
+-- Selective uses of rule modules
+- [Eping][eping]
+-- Selective uses of rule modules
+-- Project specific make rule
+
+[this-project]: <https://github.com/sean-hut/contributing-rules#contributing>
+[eping]: <https://github.com/sean-hut/eping#contributing>
 
 Here are the different rule modules in different categories:
-
-[contrib-section]: <https://github.com/sean-hut/contributing-rules#contributing>
 
 ## Contributing Prerequisites
 
