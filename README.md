@@ -89,6 +89,16 @@ The [SemVar][semvar] version of semantic versioning is used.
 
 [semvar]: <https://web.archive.org/web/20201009135328/https://semver.org/>
 
+## Versions
+
+### Development Version
+
+The development version is at the head of the `develop` branch.
+
+### Stable Versions
+
+Stable versions are tagged on the `master` branch.
+
 # Contributing
 
 Contributions are welcome and appreciated.
