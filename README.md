@@ -11,12 +11,19 @@ specific rules.  The project specific rules should be located in a
 
 To help with reuse the rules are in separate readme files.
 
-This project provides an example of referencing rule modules
-in the [contributing section][contrib-section].
+Here are some examples of projects referencing rule modules in their
+contributing section:
+
+- [this project][this-projet]
+-- Selective uses of rule modules
+- [Eping][eping]
+-- Selective uses of rule modules
+-- Project specific make rule
+
+[this-project]: <https://github.com/sean-hut/contributing-rules#contributing>
+[eping]: <https://github.com/sean-hut/eping#contributing>
 
 Here are the different rule modules in different categories:
-
-[contrib-section]: <https://github.com/sean-hut/contributing-rules#contributing>
 
 ## Contributing Prerequisites
 
@@ -75,6 +82,30 @@ Links for more information on the license:
 [landley]: <https://web.archive.org/web/20200909121328/https://landley.net/toybox/license.html>
 [spdx]: <https://web.archive.org/web/20200909121345/https://spdx.org/licenses/0BSD.html>
 [osi]: <https://web.archive.org/web/20200923194052/https://opensource.org/licenses/0BSD>
+
+## Changelog
+
+The changelog file is: CHANGELOG.md
+
+The [keep a changelog][changelog] format is used for the changelog.
+
+[changelog]: <https://web.archive.org/web/20201004165239/https://keepachangelog.com/en/1.0.0/>
+
+## Semantic Versioning
+
+The [SemVar][semvar] version of semantic versioning is used.
+
+[semvar]: <https://web.archive.org/web/20201009135328/https://semver.org/>
+
+## Versions
+
+### Development Version
+
+The development version is at the head of the `develop` branch.
+
+### Stable Versions
+
+Stable versions are tagged on the `master` branch.
 
 # Contributing
 
