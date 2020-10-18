@@ -1,4 +1,4 @@
-## Contributor Agreement
+# Contributor Agreement
 
 All contributors must sign the Contributor Agreement with a `gpg2` elliptic-curve signing key.
 
@@ -9,7 +9,7 @@ All contributors must sign the Contributor Agreement with a `gpg2` elliptic-curv
 The Contributor Agreement file is
 `contributing/contributor-agreement.txt`.
 
-### Signing the Contributor Agreement
+## Signing the Contributor Agreement
 
 Signing the Contributor Agreement should be your first commit
 contributed to this project.
@@ -56,7 +56,7 @@ This will create a signed Contributor Agreement file named
 1. Put the `<fingerprint>` from the previous step in the file
    `contributing/contributors/<YOUR_NAME>/fingerprint.txt`
 
-### Signing Key Revocation
+## Signing Key Revocation
 
 If you need to revoke your signing key move these files:
 
