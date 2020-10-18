@@ -105,6 +105,10 @@ Reverting a commit.
 
 Adding or changing tests.
 
+### IV (Increment Version)
+
+Increment a version number.
+
 ## Imperative Mood
 
 - Add not Added nor Adds
