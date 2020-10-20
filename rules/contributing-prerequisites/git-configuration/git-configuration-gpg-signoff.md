@@ -3,14 +3,13 @@
 Add the lines of git configuration below to your version of the
 project's git configuration file `.git/config`.
 
-You may also want to add a line like:
+You may also want to add this configuration in addition to those below:
 
 ```
 [user]
 	signingKey = <fingerprint-without-spaces>
 ```
-[Lookup your <fingerprint-without-spaces>.][key-id]
-[key-id]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/gpg2-key-id-for-git.md>
+[Lookup your `<fingerprint-without-spaces>`.][key-id]
 
 For more information on these git configuration settings see `man
 git-config`.
@@ -50,3 +49,5 @@ git-config`.
 	# git-fetch-pack will check all fetched objects.
 	fsckObjects = true
 ```
+
+[key-id]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/gpg2-key-id-for-git.md>
