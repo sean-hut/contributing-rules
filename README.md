@@ -128,11 +128,12 @@ These are the rules for contributing.
 
 - [GPG2 Elliptic-Curve Signing Key][signing-key]
 - [Contributor Agreement][agreement]
-- [Git Configuration][git-config]
+- [Git Configuration][git-config-gpg-signoff]
 
 [signing-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-eliptic-curve-signing-key.md>
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
-[git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration.md>
+[git-config-gpg-signoff]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration-gpg-signoff.md>
+
 
 ## Preparation for Commits
 
@@ -148,8 +149,8 @@ These are the rules for contributing.
 
 - [Small Commits][small-commits]
 - [Sign Your Commits][sign-commits]
-- [Amaranth Commit Message Format][commit-format]
+- [Amaranth Commit Message Format][amaranth]
 
 [small-commits]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/small-commits.md>
 [sign-commits]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/sign-and-signoff-commits.md>
-[commit-format]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/amaranth-commit-message-format.md>
+[amaranth]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/commit-message-format/amaranth-commit-message-format.md>
