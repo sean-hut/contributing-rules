@@ -15,10 +15,10 @@ Here are some examples of projects referencing rule modules in their
 contributing section:
 
 - [this project][this-project]
--- Selective uses of rule modules
+    - Selective uses of rule modules
 - [Eping][eping]
--- Selective uses of rule modules
--- Project specific make rule
+    - Selective uses of rule modules
+    - Project specific make rule
 
 [this-project]: <https://github.com/sean-hut/contributing-rules#contributing>
 [eping]: <https://github.com/sean-hut/eping#contributing>
@@ -29,11 +29,19 @@ Here are the different rule modules in different categories:
 
 - [GPG2 Elliptic-Curve Signing Key][signing-key]
 - [Contributor Agreement][agreement]
-- [Git Configuration][git-config]
+- Git Configuration Options:
+    - [Git Configuration][git-config]
+
+        Standard git configuration.
+
+    - [Git Configuration][git-config-gpg-signoff]
+
+        Git configuration with gpg2 signing and sign off.
 
 [signing-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-eliptic-curve-signing-key.md>
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
-[git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration.md>
+[git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration.md>
+[git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration-gpg-signoff.md>
 
 ## Preparation for Commits
 
