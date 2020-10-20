@@ -61,11 +61,14 @@ Here are the different rule modules in different categories:
 
 - [Small Commits][small-commits]
 - [Sign Your Commits][sign-commits]
-- [Amaranth Commit Message Format][commit-format]
+- Commit Message Formats:
+    - [Amaranth Commit Message Format][amaranth]
+    - [tpope Commit Message Format][tpope]
 
 [small-commits]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/small-commits.md>
 [sign-commits]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/sign-and-signoff-commits.md>
-[commit-format]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/amaranth-commit-message-format.md>
+[amaranth]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/commit-message-format/amaranth-commit-message-format.md>
+[tpope]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/commit-message-format/tpope-commit-message-format.md>
 
 # Reference Material
 
