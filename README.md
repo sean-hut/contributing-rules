@@ -14,7 +14,7 @@ To help with reuse the rules are in separate readme files.
 Here are some examples of projects referencing rule modules in their
 contributing section:
 
-- [this project][this-projet]
+- [this project][this-project]
 -- Selective uses of rule modules
 - [Eping][eping]
 -- Selective uses of rule modules
