@@ -15,10 +15,10 @@ Here are some examples of projects referencing rule modules in their
 contributing section:
 
 - [this project][this-project]
--- Selective uses of rule modules
+	- Selective uses of rule modules
 - [Eping][eping]
--- Selective uses of rule modules
--- Project specific make rule
+	- Selective uses of rule modules
+	- Project specific make rule
 
 [this-project]: <https://github.com/sean-hut/contributing-rules#contributing>
 [eping]: <https://github.com/sean-hut/eping#contributing>
