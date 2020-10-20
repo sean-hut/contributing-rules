@@ -1,9 +1,19 @@
 # Git Configuration
 
-Add the following to your cloned project's git configuration file
-`.git/config`.
+Add the lines of git configuration below to your version of the
+project's git configuration file `.git/config`.
 
-For more information see `man git-config`.
+You may also want to add a line like:
+
+```
+[user]
+	signingKey = <fingerprint-without-spaces>
+```
+[Lookup your <fingerprint-without-spaces>.][key-id]
+[key-id]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/gpg2-key-id-for-git.md>
+
+For more information on these git configuration settings see `man
+git-config`.
 
 ```
 [gpg]

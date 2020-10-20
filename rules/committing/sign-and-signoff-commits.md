@@ -5,21 +5,13 @@ elliptic-curve signature.
 
 [How to create a `gpg2` elliptic-curve signing key][create-key].
 
-[create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
-
 It also requires that commits have a sign off.
 
-1. Look up the fingerprint of your elliptic-curve signing key:
-
-`gpg2 --show-keys --with-fingerprint`
-
-`268F 448F CCD7 AF34 183E 52D8 9BDE 1A08 9E98 BC16` is an example of a
-key fingerprint.
-
-1. Commit with `--signoff` and `--gpg-sign`
+Use this git commit command when committing your changes:
 
 `git commit --signoff --gpg-sign=<fingerprint-without-spaces>`
 
-For `<fingerprint-without-spaces>` use the fingerprint from the
-previous step with out spaces.  So for example
-`268F448FCCD7AF34183E52D89BDE1A089E98BC16`
+[Lookup your <fingerprint-without-spaces>.][key-id]
+
+[create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
+[key-id]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/gpg2-key-id-for-git.md>

@@ -1,4 +1,6 @@
 # Run Make
 
-Run `make` on your changes and fix any errors or warnings before you
-commit your changes.
+Navigate to the root directory of your version of the project
+repository.  Then run `make` on your changes.
+
+Fix any errors or warnings before you commit your changes.
