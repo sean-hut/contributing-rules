@@ -14,7 +14,7 @@ The Contributor Agreement file is
 
 1. Create the directory `contributing/contributors/<your-name>/contributor-agreement/current/`.
 
-    Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
 1. Copy `contributing/contributor-agreement.txt` to `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt`.
 
@@ -35,9 +35,8 @@ to `contributing/contributors/<your-name>/contributor-agreement/revoked-<YYYY>-<
 
     Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 
-    Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
-1.  Repeat the steps in the [Signing the Contributor Agreement][sign] section.
+1.  Repeat the steps in the [Signing the Contributor Agreement](#signing-the-contributor-agreement) section.
 
 [fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
-[sign]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement#signing-the-contributor-agreement>
