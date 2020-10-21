@@ -1,73 +1,43 @@
 # Contributor Agreement
 
-All contributors must sign the Contributor Agreement with a `gpg2` elliptic-curve signing key.
+All contributors must sign the Contributor Agreement with a `gpg2`
+elliptic-curve signing key.
 
 [How to create a `gpg2` elliptic-curve signing key][create-key].
 
 [create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
 
+## Signing the Contributor Agreement
+
 The Contributor Agreement file is
 `contributing/contributor-agreement.txt`.
 
-## Signing the Contributor Agreement
+1. Create the directory `contributing/contributors/<your-name>/contributor-agreement/current/`.
 
-Signing the Contributor Agreement should be your first commit
-contributed to this project.
+    Where `<your-name>` is your name.  For example john-smith.
 
-1. Look up the fingerprint of your elliptic-curve signing key:
+1. Copy `contributing/contributor-agreement.txt` to `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt`.
 
-`gpg2 --show-keys --with-fingerprint`
+1. Sign `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt` with this command:
 
-As example of a key fingerprint is "268F 448F CCD7 AF34 183E 52D8 9BDE
-1A08 9E98 BC16".
+    `gpg2 --sign --detach-sign --default-key "<fingerpint>" contributor-agreement.txt`.
 
-1. Sign contributor-agreement.txt
+    [How to lookup your `<fingerprint>>`.][fingerprint]
 
-`gpg2 --sign --detach-sign --default-key "<fingerpint>" contributor-agreement.txt`.
-
-Where `<fingerprint>` is the fingerprint from the previous step.
-
-This will create a signed Contributor Agreement file named
-`contributor-agreement.txt.sig`.
-
-1. Create the directory `contributing/contributors/<YOUR_NAME>`.
-
-   For example `contributing/contributors/john-smith`.
-
-1. Put `contributor-agreement.txt` into your
-   `contributing/contributors/<YOUR_NAME>` directory.
-
-1. Put `contributor-agreement.txt.sig` into your
-   `contributing/contributors/<YOUR_NAME>` directory.
-
-1. Export your public key which others can use to verify your
-   signatures.
-
-`gpg2 --output <your-name>-public-signing-key.gpg --armor --export <fingerprint>`
-
--- Use your name where it says <your-name>.
-
--- Enter the fingerprint from the previous step where it says
-`<fingerprint>`.
-
-1. Put <your-name>-public-key.gpg in the
-   `contributing/contributors/<YOUR_NAME>` directory.
-
-1. Put the `<fingerprint>` from the previous step in the file
-   `contributing/contributors/<YOUR_NAME>/fingerprint.txt`
+    This will create the detached signature `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt.sig`.
 
 ## Signing Key Revocation
 
-If you need to revoke your signing key move these files:
+If you need to revoke your signing key.
 
-`contributing/contributors/<YOUR_NAME>/contributor-agreement.txt`
-`contributing/contributors/<YOUR_NAME>/contributor-agreement.txt.sig`
-`contributing/contributors/<YOUR_NAME>/<your-name>-public-signing-key.gpg`
-`contributing/contributors/<YOUR_NAME>/fingerprint.txt`
+1. Rename `contributing/contributors/<your-name>/contributor-agreement/current/`
+to `contributing/contributors/<your-name>/contributor-agreement/revoked-<YYYY>-<MM>-<DD>/`.
 
-To a new directory called
-`contributing/contributors/<YOUR_NAME>/revoked-YYYY-MM-DD/`.  Where
-YYYY is the year, MM is the month and DD is the day.
+    Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 
-Then repeat the step in the "Signing the Contributor Agreement" section
-above.
+    Where `<your-name>` is your name.  For example john-smith.
+
+1.  Repeat the steps in the [Signing the Contributor Agreement][sign] section.
+
+[fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
+[sign]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement#signing-the-contributor-agreement>
