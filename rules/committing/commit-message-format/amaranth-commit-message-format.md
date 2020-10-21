@@ -38,72 +38,80 @@ The body footer refers to issue IDs for example:
 
 ## Category Abbreviation
 
-### B (Build)
+These category abbreviation are sorted alphabetically.
 
-Changes that effect the build tools.  For example:
-- Changes to the Makefile.
+- AA (API Additions)
 
-### C (Configuration)
+    Adding functionality to the API.  For example:
 
-Changes to configurations.  For example:
-- .gitignore
+    - Adding user facing features
+    - Adding user configurations
 
-### CT (Contributing)
+- AR (API Removals)
 
-Use this when the commit is for managing contributing requirements  For example:
+    Removing functionality from the API. For example:
 
-- Adding a gpg2 elliptic-curve signing key and fingerprint.
-- Signing a contributor agreement.
-- Setting up contributing directories.
-- Revoking a signing key and resigning with a new key.
+    - Removing user facing features
+    - Removing user configurations
 
-### D (Documentation)
+- B (Build)
 
-Changes to documentation.  For example:
-- README.md
-- CHANGELOG.md
-- Texinfo file
+    Changes that effect the build tools.  For example:
 
-### RD (Runtime Dependencies)
+    - Changes to the Makefile.
 
-Changes to the projects runtime dependencies.  Runtime dependencies
-are programs the users need to have installed.
+- BF (Bug Fix)
 
-### DD (Developer Dependencies)
+    Fixing an error in the source code.
 
-Changes to developer dependencies.  Developer dependencies are
-programs developers need to have installed.
+- C (Configuration)
 
-### AA (API Additions)
+    Changes to configurations.  For example:
 
-Adding functionality to the API.  For example:
-- Adding user facing features
-- Adding user configurations
+    - .gitignore
 
-### AR (API Removals)
+- CT (Contributing)
 
-Removing functionality from the API. For example:
-- Removing user facing features
-- Removing user configurations
+    Use this when the commit is for managing contributing requirements  For example:
 
-### BF (Bug Fix)
-Fixing an error in the source code.
+    - Adding a gpg2 elliptic-curve signing key and fingerprint.
+    - Signing a contributor agreement.
+    - Setting up contributing directories.
+    - Revoking a signing key and resigning with a new key.
 
-### R (Refactor)
+- D (Documentation)
 
-Changes that do not effect the API and do not add or remove features.
+    Changes to documentation.  For example:
 
-### RV (Revert)
+    - README.md
+    - CHANGELOG.md
+    - Texinfo file
 
-Reverting a commit.
+- DD (Developer Dependencies)
 
-### T (Test)
+    Changes to developer dependencies.  Developer dependencies are
+    programs developers need to have installed.
 
-Adding or changing tests.
+- IV (Increment Version)
 
-### IV (Increment Version)
+    Increment a version number.
 
-Increment a version number.
+- R (Refactor)
+
+    Changes that do not effect the API and do not add or remove features.
+
+- RD (Runtime Dependencies)
+
+    Changes to the projects runtime dependencies.  Runtime dependencies
+    are programs the users need to have installed.
+
+- RV (Revert)
+
+    Reverting a commit.
+
+- T (Test)
+
+    Adding or changing tests.
 
 ## Imperative Mood
 
