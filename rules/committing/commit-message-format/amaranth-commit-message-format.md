@@ -40,37 +40,37 @@ The body footer refers to issue IDs for example:
 
 These category abbreviation are sorted alphabetically.
 
-- AA (API Additions)
+- **AA** (API Additions)
 
     Adding functionality to the API.  For example:
 
     - Adding user facing features
     - Adding user configurations
 
-- AR (API Removals)
+- **AR** (API Removals)
 
     Removing functionality from the API. For example:
 
     - Removing user facing features
     - Removing user configurations
 
-- B (Build)
+- **B** (Build)
 
     Changes that effect the build tools.  For example:
 
     - Changes to the Makefile.
 
-- BF (Bug Fix)
+- **BF** (Bug Fix)
 
     Fixing an error in the source code.
 
-- C (Configuration)
+- **C** (Configuration)
 
     Changes to configurations.  For example:
 
     - .gitignore
 
-- CT (Contributing)
+- **CT** (Contributing)
 
     Use this when the commit is for managing contributing requirements  For example:
 
@@ -79,7 +79,7 @@ These category abbreviation are sorted alphabetically.
     - Setting up contributing directories.
     - Revoking a signing key and resigning with a new key.
 
-- D (Documentation)
+- **D** (Documentation)
 
     Changes to documentation.  For example:
 
@@ -87,29 +87,29 @@ These category abbreviation are sorted alphabetically.
     - CHANGELOG.md
     - Texinfo file
 
-- DD (Developer Dependencies)
+- **DD** (Developer Dependencies)
 
     Changes to developer dependencies.  Developer dependencies are
     programs developers need to have installed.
 
-- IV (Increment Version)
+- **IV** (Increment Version)
 
     Increment a version number.
 
-- R (Refactor)
+- **R** (Refactor)
 
     Changes that do not effect the API and do not add or remove features.
 
-- RD (Runtime Dependencies)
+- **RD** (Runtime Dependencies)
 
     Changes to the projects runtime dependencies.  Runtime dependencies
     are programs the users need to have installed.
 
-- RV (Revert)
+- **RV** (Revert)
 
     Reverting a commit.
 
-- T (Test)
+- **T** (Test)
 
     Adding or changing tests.
 
