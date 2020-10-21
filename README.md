@@ -28,6 +28,7 @@ Here are the different rule modules in different categories:
 ## Contributing Prerequisites
 
 - [GPG2 Elliptic-Curve Signing Key][signing-key]
+- [Provide GPG2 Public Key][public-key]
 - [Contributor Agreement][agreement]
 - Git Configuration Options:
     - [Git Configuration][git-config]
@@ -40,6 +41,7 @@ Here are the different rule modules in different categories:
 
 [signing-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-eliptic-curve-signing-key.md>
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
+[public-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-public-key.md>
 [git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration.md>
 [git-config-gpg-signoff]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration-gpg-signoff.md>
 
