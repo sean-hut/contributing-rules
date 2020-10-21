@@ -79,10 +79,12 @@ Reference material is available for rules to link to.
 - [Creating a GPG2 Elliptic-Curve Signing Key][create-key]
 - [Lookup GPG2 Key Id for Git][key-id-for-git]
 - [Lookup GPG2 Elliptic-Curve Fingerprint][fingerprint]
+- [What To Enter For `<your-name>`][name]
 
 [create-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/creating-gpg2-eliptic-curve-signing.md>
 [key-id-for-git]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/gpg2-key-id-for-git.md>
 [fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
+[name]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/your-name-value.md>
 
 # License
 
