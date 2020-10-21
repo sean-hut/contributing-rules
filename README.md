@@ -135,10 +135,12 @@ These are the rules for contributing.
 ## Contributing Prerequisites
 
 - [GPG2 Elliptic-Curve Signing Key][signing-key]
+- [Provide GPG2 Public Key][public-key]
 - [Contributor Agreement][agreement]
 - [Git Configuration][git-config-gpg-signoff]
 
 [signing-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-eliptic-curve-signing-key.md>
+[public-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-public-key.md>
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
 [git-config-gpg-signoff]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration-gpg-signoff.md>
 
