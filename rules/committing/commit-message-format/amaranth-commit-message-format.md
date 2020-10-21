@@ -96,6 +96,10 @@ These category abbreviation are sorted alphabetically.
 
     Increment a version number.
 
+- **M** (Merge)
+
+    Merging a branch into another branch.
+
 - **R** (Refactor)
 
     Changes that do not effect the API and do not add or remove features.
