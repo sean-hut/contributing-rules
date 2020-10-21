@@ -28,17 +28,17 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 - Changelog
 - BSD Zero Clause license (SPDX: 0BSD)
 - Contributing Rule Modules
--- Contributing Prerequisites
---- GPG2 Elliptic-Curve Signing Key
---- Contributor Agreement
---- Git Configuration
--- Preparation for Commits
---- git-flow Branching
---- Fetch and Merge Before Committing
---- Update Documentation
---- Update Tests
---- Run Make
--- Committing
---- Small Commits
---- Sign Your Commits
---- Amaranth Commit Message Format
+    - Contributing Prerequisites
+        - GPG2 Elliptic-Curve Signing Key
+        - Contributor Agreement
+        - Git Configuration
+    - Preparation for Commits
+        - git-flow Branching
+        - Fetch and Merge Before Committing
+        - Update Documentation
+        - Update Tests
+        - Run Make
+    - Committing
+        - Small Commits
+        - Sign Your Commits
+        - Amaranth Commit Message Format
