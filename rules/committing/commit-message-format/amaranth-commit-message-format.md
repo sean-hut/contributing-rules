@@ -7,11 +7,9 @@ The summary line is the first line of the commit message.
 - A commit message must have a summary line.
 - The summary must not be more than 50 characters.
 - The summary must not end with a period.
-- The summary must start with one of the [category abbreviation][category-abbreviation] for example `B`.
+- The summary must start with one of the [category abbreviation](#category-abbreviation) for example `B`.
 - The summary's first word after the category abbreviation must be lower case.
-- The summary must use the imperative mood.  See [imperative mood][imperative-mood].
-
-[category-abbreviation]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/amaranth-commit-message-format.md#category-abbreviation>
+- The summary must use the imperative mood.  See [imperative mood](#imperative-mood).
 
 ## Separate the Summary and Body
 
@@ -21,12 +19,10 @@ Separate the summary and the body with a blank line.
 
 The body explains what changed and the rational for why it changed.
 
-- The body must use the imperative mood.  See [imperative mood][imperative-mood].
+- The body must use the imperative mood.  See [imperative mood](#imperative-mood).
 - The body lines must wrap at 72 characters.
 - The body can contain blank lines.
 - The body can contain bullet points that start with `-` or `*`.
-
-[imperative-mood]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/amaranth-commit-message-format.md#imperative-mood>
 
 ## Separate the Body and Body Footer
 
