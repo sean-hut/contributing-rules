@@ -40,3 +40,4 @@ to `contributing/contributors/<your-name>/contributor-agreement/revoked-<YYYY>-<
 1.  Repeat the steps in the [Signing the Contributor Agreement](#signing-the-contributor-agreement) section.
 
 [fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
+[name]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/your-name-value.md>
