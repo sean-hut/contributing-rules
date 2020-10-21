@@ -23,11 +23,10 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+## [0.1.0] - 2020-10-21
+
 ### Add
 - BSD Zero Clause license (SPDX: 0BSD)
-- Readme
-- Changelog
-- Makefile
 - Contributing Rule Modules
     - Contributing Prerequisites:
         - GPG2 Elliptic-Curve Signing Key
@@ -52,3 +51,7 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
     - Creating a GPG2 Elliptic-Curve Signing Key
     - Lookup GPG2 Key Id for Git
     - Lookup GPG2 Elliptic-Curve Fingerprint
+    - What To Enter For `<your-name>`
+- Readme
+- Changelog
+- Makefile
