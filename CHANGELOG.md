@@ -23,11 +23,36 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+## [0.2.0] - 2020-10-21
+
+### Added
+
+- Contributing Rule Modules:
+    - Committing:
+        - Commit Message Formats:
+            - Amaranth Commit Message Format:
+                - Add M (Merge) category abbreviation
+
+### Changed
+- Contributing Rule Modules:
+    - Committing:
+        - Commit Message Formats:
+            - Amaranth Commit Message Format:
+                - Reformat category abbreviations
+
+### Fixed
+
+- Contributing Rule Modules:
+    - Contributing Prerequisites:
+        - Contributor Agreement:
+            - Fix broken links
+
 ## [0.1.0] - 2020-10-21
 
-### Add
+### Added
+
 - BSD Zero Clause license (SPDX: 0BSD)
-- Contributing Rule Modules
+- Contributing Rule Modules:
     - Contributing Prerequisites:
         - GPG2 Elliptic-Curve Signing Key
         - Provide GPG2 Public Key
