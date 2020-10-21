@@ -11,25 +11,25 @@ and it's fingerprint.
 
 1. Export your `gpg2` elliptic-curve public key.
 
-`gpg2 --output <your-name>-public-signing-key.gpg --armor --export <fingerprint>`
+    `gpg2 --output <your-name>-public-signing-key.gpg --armor --export <fingerprint>`
 
-Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
-[How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`.][fingerprint]
 
 1. Put `<your-name>-public-key.gpg` in:
 
     `contributing/contributors/<your-name>/public-key/current/`.
 
-    Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
 1. Put your key's `<fingerprint>` in the file:
 
     `contributing/contributors/<your-name>/public-key/current/fingerprint.txt`
 
-    Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
-[How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`.][fingerprint]
 
 ## Signing Key Revocation
 
@@ -40,9 +40,9 @@ to `contributing/contributors/<your-name>/public-key/revoked-<YYYY>-<MM>-<DD>/`.
 
     Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 
-    Where `<your-name>` is your name.  For example john-smith.
+    [What To Enter For `<your-name>`][name].
 
-1.  Repeat the steps in the [Provide GPG2 Public Key and Fingerprint][public-key] section.
+1.  Repeat the steps in the [Provide GPG2 Public Key and Fingerprint](#provide-gpg2-public-key-and-fingerprint) section.
 
 [fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
-[public-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-public-key#provide-gpg2--public-key-and-fingerprint>
+[name]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/your-name-value.md>
