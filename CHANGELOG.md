@@ -24,21 +24,31 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 ## [Unreleased]
 
 ### Add
+- BSD Zero Clause license (SPDX: 0BSD)
 - Readme
 - Changelog
-- BSD Zero Clause license (SPDX: 0BSD)
+- Makefile
 - Contributing Rule Modules
-    - Contributing Prerequisites
+    - Contributing Prerequisites:
         - GPG2 Elliptic-Curve Signing Key
+        - Provide GPG2 Public Key
         - Contributor Agreement
-        - Git Configuration
-    - Preparation for Commits
+        - Git Configuration Options:
+            - Standard git configuration
+            - Git configuration with gpg2 signing and sign off
+    - Preparation for Commits:
         - git-flow Branching
         - Fetch and Merge Before Committing
         - Update Documentation
         - Update Tests
         - Run Make
-    - Committing
+    - Committing:
         - Small Commits
         - Sign Your Commits
-        - Amaranth Commit Message Format
+        - Commit Message Formats:
+            - Amaranth Commit Message Format
+            - tpope Commit Message Format
+- References:
+    - Creating a GPG2 Elliptic-Curve Signing Key
+    - Lookup GPG2 Key Id for Git
+    - Lookup GPG2 Elliptic-Curve Fingerprint
