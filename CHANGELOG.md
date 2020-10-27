@@ -23,6 +23,13 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Added
+
+- Contributing Rule Modules:
+    - Contributing Prerequisites:
+        - Git Hook Options:
+            - make Git pre-commit Hook
+
 ## [0.2.0] - 2020-10-21
 
 ### Added

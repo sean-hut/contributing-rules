@@ -32,12 +32,11 @@ Here are the different rule modules in different categories:
 - [Contributor Agreement][agreement]
 - Git Configuration Options:
     - [Git Configuration][git-config]
-
         Standard git configuration.
-
     - [Git Configuration][git-config-gpg-signoff]
-
         Git configuration with gpg2 signing and sign off.
+- Git Hook Options:
+    - [Git `pre-commit` Hook][pre-commit]
 
 ## Preparation for Commits
 
@@ -141,6 +140,7 @@ These are the rules for contributing.
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
 [git-config]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration.md>
 [git-config-gpg-signoff]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-configuration/git-configuration-gpg-signoff.md>
+[pre-commit]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-hook/pre-commit.md>
 
 [git-flow]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/preparation-for-commits/git-flow-branching.md>
 [fetch-merge]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/preparation-for-commits/fetch-and-merge-before-committing.md>
