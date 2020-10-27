@@ -30,6 +30,12 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
         - Git Hook Options:
             - make Git pre-commit Hook
 
+### Changed
+
+- Moved the [Amaranth Commit Message Format][amaranth] to it's own repository
+
+[amaranth]: <https://github.com/sean-hut/amaranth-commit-message-format>
+
 ## [0.2.0] - 2020-10-21
 
 ### Added
