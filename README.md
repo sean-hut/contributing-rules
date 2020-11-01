@@ -2,6 +2,7 @@
 
 This project provides modular contributing rules for reuse by other projects.
 
+## Example Use
 
 # Rule Modules
 
@@ -9,15 +10,18 @@ To help with reuse the rules are in separate readme files.
 
 Here are some examples of projects referencing rule modules in their
 contributing section:
+Here are some examples of projects selectively referencing these
+contributing rules.
 
 - [this project][this-project]
-    - Selective uses of rule modules
 - [Eping][eping]
-    - Selective uses of rule modules
-    - Project specific make rule
+- [Amaranth Commit Message Format][amaranth]
+- [Amaranth Commit Message Git Hook][amaranth-hook]
 
 [this-project]: <https://github.com/sean-hut/contributing-rules#contributing>
 [eping]: <https://github.com/sean-hut/eping#contributing>
+[amaranth]: <https://github.com/sean-hut/amaranth-commit-message-format>
+[amaranth-hook]: <https://github.com/sean-hut/amaranth-commit-msg-hook>
 
 Here are the different rule modules in different categories:
 
