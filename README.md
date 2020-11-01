@@ -1,11 +1,7 @@
 # Contributing Rules
 
-The purpose of this project is to have general contributing rules for
-contributors.  These rules can then be reused by different projects.
+This project provides modular contributing rules for reuse by other projects.
 
-As these rules are general they need to be complimented with project
-specific rules.  The project specific rules should be located in a
-`CONTRIBUTING.md` file in the projects root directory.
 
 # Rule Modules
 
