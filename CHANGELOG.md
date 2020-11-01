@@ -28,7 +28,9 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 - Contributing Rule Modules:
     - Contributing Prerequisites:
         - Git Hook Options:
-            - make Git pre-commit Hook
+            - Git pre-commit Hook to run make
+            - Git commit-msg Hook
+                Checks conformance with the Amaranth commit message format.
 
 ### Changed
 
