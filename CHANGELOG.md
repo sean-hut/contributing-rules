@@ -23,6 +23,8 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+## [0.3.0] - 2020-10-31
+
 ### Added
 
 - Contributing Rule Modules:
