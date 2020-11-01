@@ -4,10 +4,6 @@ This project provides modular contributing rules for reuse by other projects.
 
 ## Example Use
 
-To help with reuse the rules are in separate readme files.
-
-Here are some examples of projects referencing rule modules in their
-contributing section:
 Here are some examples of projects selectively referencing these
 contributing rules.
 
@@ -21,9 +17,9 @@ contributing rules.
 [amaranth]: <https://github.com/sean-hut/amaranth-commit-message-format>
 [amaranth-hook]: <https://github.com/sean-hut/amaranth-commit-msg-hook>
 
-Here are the different rule modules in different categories:
 ## Rule Modules
 
+Here are the different rule modules in different categories.
 
 ### Contributing Prerequisites
 
