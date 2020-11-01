@@ -4,8 +4,6 @@ This project provides modular contributing rules for reuse by other projects.
 
 ## Example Use
 
-# Rule Modules
-
 To help with reuse the rules are in separate readme files.
 
 Here are some examples of projects referencing rule modules in their
@@ -24,8 +22,10 @@ contributing rules.
 [amaranth-hook]: <https://github.com/sean-hut/amaranth-commit-msg-hook>
 
 Here are the different rule modules in different categories:
+## Rule Modules
 
-## Contributing Prerequisites
+
+### Contributing Prerequisites
 
 - [GPG2 Elliptic-Curve Signing Key][signing-key]
 - [Provide GPG2 Public Key][public-key]
@@ -39,7 +39,7 @@ Here are the different rule modules in different categories:
     - [Git `pre-commit` Hook][pre-commit]
     - [Amaranth Git `commit-msg` Hook][commit-msg]
 
-## Preparation for Commits
+### Preparation for Commits
 
 - [git-flow Branching][git-flow]
 - [Fetch and Merge Before Committing][fetch-merge]
@@ -47,7 +47,7 @@ Here are the different rule modules in different categories:
 - [Update Tests][tests]
 - [Run Make][run-make]
 
-## Committing
+### Committing
 
 - [Small Commits][small-commits]
 - [Sign Your Commits][sign-commits]
@@ -55,7 +55,6 @@ Here are the different rule modules in different categories:
     - [Amaranth Commit Message Format][amaranth]
     - [tpope Commit Message Format][tpope]
 
-# Reference Material
 [signing-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-eliptic-curve-signing-key.md>
 [public-key]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/gpg2-public-key.md>
 [agreement]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/contributor-agreement.md>
@@ -75,6 +74,8 @@ Here are the different rule modules in different categories:
 [amaranth]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/commit-message-format/amaranth-commit-message-format.md>
 [tpope]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/committing/commit-message-format/tpope-commit-message-format.md>
 
+## Reference Material
+
 Reference material is available for rules to link to.
 
 - [Creating a GPG2 Elliptic-Curve Signing Key][create-key]
@@ -87,7 +88,7 @@ Reference material is available for rules to link to.
 [fingerprint]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/lookup-fingerprint.md>
 [name]: <https://github.com/sean-hut/contributing-rules/blob/develop/reference/your-name-value.md>
 
-# License
+## License
 
 The license file is: `LICENSE`
 
