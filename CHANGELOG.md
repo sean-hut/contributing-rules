@@ -23,6 +23,23 @@ This project uses the [ISO 8601 date format][iso] of (YYYY-MM-DD).
 
 ## [Unreleased]
 
+## [0.3.0] - 2020-10-31
+
+### Added
+
+- Contributing Rule Modules:
+    - Contributing Prerequisites:
+        - Git Hook Options:
+            - Git pre-commit Hook to run make
+            - Git commit-msg Hook
+                Checks conformance with the Amaranth commit message format.
+
+### Changed
+
+- Moved the [Amaranth Commit Message Format][amaranth] to it's own repository
+
+[amaranth]: <https://github.com/sean-hut/amaranth-commit-message-format>
+
 ## [0.2.0] - 2020-10-21
 
 ### Added
