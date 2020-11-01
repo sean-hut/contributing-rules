@@ -37,6 +37,7 @@ Here are the different rule modules in different categories:
         Git configuration with gpg2 signing and sign off.
 - Git Hook Options:
     - [Git `pre-commit` Hook][pre-commit]
+    - [Amaranth Git `commit-msg` Hook][commit-msg]
 
 ## Preparation for Commits
 
@@ -55,6 +56,7 @@ Here are the different rule modules in different categories:
     - [tpope Commit Message Format][tpope]
 
 # Reference Material
+[commit-msg]: <https://github.com/sean-hut/contributing-rules/blob/develop/rules/contributing-prerequisites/git-hook/commit-msg.md>
 
 Reference material is available for rules to link to.
 
