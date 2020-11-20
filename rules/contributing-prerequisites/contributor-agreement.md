@@ -22,7 +22,7 @@ The Contributor Agreement file is
 
     `gpg2 --sign --detach-sign --default-key "<fingerpint>" contributor-agreement.txt`.
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
     This will create the detached signature `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt.sig`.
 

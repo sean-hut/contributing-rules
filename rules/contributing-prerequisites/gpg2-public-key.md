@@ -15,7 +15,7 @@ and it's fingerprint.
 
     [What To Enter For `<your-name>`][name].
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
 1. Put `<your-name>-public-key.gpg` in:
 
@@ -29,7 +29,7 @@ and it's fingerprint.
 
     [What To Enter For `<your-name>`][name].
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
 ## Signing Key Revocation
 
