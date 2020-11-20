@@ -10,28 +10,28 @@ elliptic-curve signing key.
 ## Signing the Contributor Agreement
 
 The Contributor Agreement file is
-`contributing/contributor-agreement.txt`.
+`CONTRIBUTING/contributor-agreement.txt`.
 
-1. Create the directory `contributing/contributors/<your-name>/contributor-agreement/current/`.
+1. Create the directory `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/`.
 
     [What To Enter For `<your-name>`][name].
 
-1. Copy `contributing/contributor-agreement.txt` to `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt`.
+1. Copy `CONTRIBUTING/contributor-agreement.txt` to `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt`.
 
-1. Sign `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt` with this command:
+1. Sign `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt` with this command:
 
     `gpg2 --sign --detach-sign --default-key "<fingerpint>" contributor-agreement.txt`.
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
-    This will create the detached signature `contributing/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt.sig`.
+    This will create the detached signature `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/contributor-agreement.txt.sig`.
 
 ## Signing Key Revocation
 
 If you need to revoke your signing key.
 
-1. Rename `contributing/contributors/<your-name>/contributor-agreement/current/`
-to `contributing/contributors/<your-name>/contributor-agreement/revoked-<YYYY>-<MM>-<DD>/`.
+1. Rename `CONTRIBUTING/contributors/<your-name>/contributor-agreement/current/`
+to `CONTRIBUTING/contributors/<your-name>/contributor-agreement/revoked-<YYYY>-<MM>-<DD>/`.
 
     Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 

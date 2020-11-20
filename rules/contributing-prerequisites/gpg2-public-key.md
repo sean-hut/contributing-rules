@@ -11,32 +11,30 @@ and it's fingerprint.
 
 1. Export your `gpg2` elliptic-curve public key.
 
-    `gpg2 --output <your-name>-public-signing-key.gpg --armor --export <fingerprint>`
+    `gpg2 --output public-key.gpg --armor --export <fingerprint>`
 
-    [What To Enter For `<your-name>`][name].
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+1. Put `public-key.gpg` in:
 
-1. Put `<your-name>-public-key.gpg` in:
-
-    `contributing/contributors/<your-name>/public-key/current/`.
+    `CONTRIBUTING/contributors/<your-name>/public-key/current/`.
 
     [What To Enter For `<your-name>`][name].
 
 1. Put your key's `<fingerprint>` in the file:
 
-    `contributing/contributors/<your-name>/public-key/current/fingerprint.txt`
+    `CONTRIBUTING/contributors/<your-name>/public-key/current/fingerprint.txt`
 
     [What To Enter For `<your-name>`][name].
 
-    [How to lookup your `<fingerprint>>`.][fingerprint]
+    [How to lookup your `<fingerprint>>`][fingerprint].
 
 ## Signing Key Revocation
 
 If you need to revoke your signing key.
 
-1. Rename `contributing/contributors/<your-name>/public-key/current/`
-to `contributing/contributors/<your-name>/public-key/revoked-<YYYY>-<MM>-<DD>/`.
+1. Rename `CONTRIBUTING/contributors/<your-name>/public-key/current/`
+to `CONTRIBUTING/contributors/<your-name>/public-key/revoked-<YYYY>-<MM>-<DD>/`.
 
     Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 

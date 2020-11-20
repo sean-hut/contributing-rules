@@ -1,6 +1,6 @@
 # GPG2 Elliptic-Curve Signing Key
 
-This project requires `gpg2` elliptical-curve cryptography signing.
+This project requires `gpg2` elliptic-curve cryptography signing.
 
 The [GPG][gpg] project recommend [elliptic-curve
 cryptography][elliptic-curve]:
