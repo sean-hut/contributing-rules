@@ -11,13 +11,11 @@ and it's fingerprint.
 
 1. Export your `gpg2` elliptic-curve public key.
 
-    `gpg2 --output <your-name>-public-signing-key.gpg --armor --export <fingerprint>`
-
-    [What To Enter For `<your-name>`][name].
+    `gpg2 --output public-key.gpg --armor --export <fingerprint>`
 
     [How to lookup your `<fingerprint>>`][fingerprint].
 
-1. Put `<your-name>-public-key.gpg` in:
+1. Put `public-key.gpg` in:
 
     `CONTRIBUTING/contributors/<your-name>/public-key/current/`.
 
