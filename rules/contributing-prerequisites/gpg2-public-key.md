@@ -19,13 +19,13 @@ and it's fingerprint.
 
 1. Put `<your-name>-public-key.gpg` in:
 
-    `contributing/contributors/<your-name>/public-key/current/`.
+    `CONTRIBUTING/contributors/<your-name>/public-key/current/`.
 
     [What To Enter For `<your-name>`][name].
 
 1. Put your key's `<fingerprint>` in the file:
 
-    `contributing/contributors/<your-name>/public-key/current/fingerprint.txt`
+    `CONTRIBUTING/contributors/<your-name>/public-key/current/fingerprint.txt`
 
     [What To Enter For `<your-name>`][name].
 
@@ -35,8 +35,8 @@ and it's fingerprint.
 
 If you need to revoke your signing key.
 
-1. Rename `contributing/contributors/<your-name>/public-key/current/`
-to `contributing/contributors/<your-name>/public-key/revoked-<YYYY>-<MM>-<DD>/`.
+1. Rename `CONTRIBUTING/contributors/<your-name>/public-key/current/`
+to `CONTRIBUTING/contributors/<your-name>/public-key/revoked-<YYYY>-<MM>-<DD>/`.
 
     Where `<YYYY>` is the year, `<MM>` is the month and `<DD>` is the day.
 
