@@ -1,7 +1,6 @@
 # Example Use
 
-Here are some examples of projects selectively referencing these
-contributing rules.
+Here are some examples of projects that are using this project.
 
 - [Contributing Rules][contributing-rules]
 - [Setup Contributing][setup-contributing]
